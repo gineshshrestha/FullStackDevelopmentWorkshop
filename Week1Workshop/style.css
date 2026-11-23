@@ -1,0 +1,22 @@
+:root {
+  --primary-bg-color:#E4FFE1;
+  --secondary-bg-color: #6A8D73;
+  --primary-color: #4D7EA8;
+}
+#main{
+  color:var(--primary-color);
+}
+body{
+  background: var(--primary-bg-color);
+}
+nav{
+  background: var(--secondary-bg-color);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+nav a{
+  text-decoration: none;
+  padding: 10px;
+
+}
